@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  // tslint:disable-next-line: ban-types
+  nameAutor: String = 'Jassiel´s Header';
   constructor() { }
 
   ngOnInit() {
