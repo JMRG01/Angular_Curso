@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   anio: number  = new Date().getFullYear();
-  // tslint:disable-next-line: ban-types
-  nameAutor: String = 'Jassiel´s';
+  // tslint:disable-next-line:no-inferrable-types
+  nameAutor: string = 'Jassiel´s';
 
   constructor() { }
 
