@@ -1,3 +1,22 @@
+/* SVG animation */
+
+svg path,
+svg rect {
+    fill: black;
+}
+
+.cent {
+    /* background-color: #fafafa; */
+    margin: 1rem;
+    padding: 1rem;
+    /* border: 2px solid #ccc; */
+    /* IMPORTANTE */
+    text-align: center;
+}
+
+
+/* animation */
+
 .animated {
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
